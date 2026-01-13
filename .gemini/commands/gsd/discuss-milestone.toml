@@ -1,0 +1,6 @@
+description = "Gather context for next milestone through adaptive questioning"
+prompt = """
+지침: @{./.gemini/commands/gsd/discuss-milestone.md}
+
+위 지침에 따라 작업을 수행해 주세요. 사용자로부터 받은 인수가 있다면 프롬프트에 포함하여 지침을 실행합니다: {{args}}
+"""
